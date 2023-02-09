@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    background-image: url(../images/jameswebb1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    color: white;
+    font-family: 'Nasa';
+}
+
+.maindiv2 {
+    display: flex;
+    justify-content: flex-start;
+    height: 35vh;
+    flex-direction: column-reverse;
+}
+
+.maindiv1 {
+    display: flex;
+    justify-content: flex-end;
+    height: 35vh;
+
+}
+
+.divtext {margin: 100px; font-size: xx-large;}
+
+
+/* css pour header et footer */
+
+header,
+nav {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    height: 100px;
+    padding: 0;
+}
+
+.navbarIcon {
+    width: 70px;
+    height: 70px;
+}
+
+.navbarIcon:hover {
+    width: 70px;
+    height: 70px;
+    -webkit-box-shadow: 5px 5px 15px 5px white;
+    box-shadow: 5px 5px 15px 5px white;
+    border-radius: 50%;
+
+}
+
+
+.navbarIconTwo {
+    width: 90px;
+    height: 70px;
+}
+
+.navbarIconTwo:hover {
+    width: 90px;
+    height: 70px;
+    -webkit-box-shadow: 5px 5px 15px 5px white;
+    box-shadow: 5px 5px 15px 5px white;
+    border-radius: 50%;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(43, 208, 226);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.wrappedContainer {
+
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+footer li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+footer p {
+    font-size: xx-large;
+}
+
+footer ul {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+
+}
+
+nav,
+footer {
+    background-color: black;
+    color: white;
+
+}
+
+
+.footerIcon {
+    width: 70px;
+    height: 70px;
+    padding-left: 10px;
+}
+
+.footerIconTwo {
+    width: 70px;
+    height: 70px;
+}
+
+.footerIcon:hover {
+    -webkit-box-shadow: 5px 5px 15px 5px white;
+    box-shadow: 5px 5px 15px 5px white;
+    border-radius: 50%;
+}
+
+.footerIconTwo:hover {
+    -webkit-box-shadow: 5px 5px 15px 5px white;
+    box-shadow: 5px 5px 15px 5px white;
+    border-radius: 50px;
+}
+
+/* fin header footer css */
+
+/*ancien main
+ h1 {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    text-align: end;
+    margin-top: 20px;
+    margin-right: 250px;
+    font-size: 45px;
+}
+
+h2 {
+h
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: flex-end;
+    /* margin-top: 400px;
+    margin-left: 75px; */
+/* font-size: 45px; */

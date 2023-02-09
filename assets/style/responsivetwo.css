@@ -1,0 +1,44 @@
+
+@media (max-width: 850px) {
+    * {
+        background-attachment: fixed;
+        margin: 0;
+    }
+
+    main {
+        height: auto;
+        z-index: 2;
+        padding: 20px;
+    }
+
+    .cloud {
+        flex-direction: column;
+    }
+
+    main img {
+        width: 150%;
+    }
+
+    footer {
+        position: sticky;
+        bottom: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .wrappedContainer p {
+        display: none;
+    }
+
+
+    footer ul {
+        margin-left: -50px;
+    }
+
+    #fuckinaries {
+        top: 0;
+        left: -50px;
+    }
+
+   
+}

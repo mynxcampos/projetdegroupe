@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    background-image: url(../images/jameswebb1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    color: white;
+    font-family: 'Nasa';
+}
+
+main {
+    margin-bottom: 0;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 75vh;
+}
+
+.cloud {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main img {
+    width: 100%;
+}
+
+.constellations {
+    position: relative;
+    width: 15vw;
+}
+
+.constellations:hover {
+    box-shadow: 1px 1px 10px 10px rgb(37, 62, 129);
+}
+
+.constellations .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(93, 91, 141);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    position: absolute;
+    z-index: 3;
+    left: 50%;
+    top: -40px;
+    margin-left: -60px;
+    margin-bottom: -50px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.constellations .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.constellations:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* barre  nav et footer */
+header,
+footer {
+    z-index: 99;
+}
+
+header,
+nav {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    height: 100px;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.navbarIcon {
+    width: 70px;
+    height: 70px;
+}
+
+.navbarIcon:hover {
+    width: 70px;
+    height: 70px;
+    -webkit-box-shadow: 5px 5px 15px 5px white;
+    box-shadow: 5px 5px 15px 5px white;
+    border-radius: 50%;
+}
+
+
+.navbarIconTwo {
+    width: 90px;
+    height: 70px;
+}
+
+.navbarIconTwo:hover {
+    width: 90px;
+    height: 70px;
+    -webkit-box-shadow: 5px 5px 15px 5px white;
+    box-shadow: 5px 5px 15px 5px white;
+    border-radius: 50%;
+}
+
+footer li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+p {
+    font-size: xx-large;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+}
+
+
+nav,
+footer {
+    background-color: black;
+    color: white;
+
+}
+
+.footerIcon {
+    width: 70px;
+    height: 70px;
+    padding-left: 10px;
+}
+
+.footerIconTwo {
+    width: 70px;
+    height: 70px;
+}
+
+.wrappedContainer {
+
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.footerIcon:hover {
+    -webkit-box-shadow: 5px 5px 15px 5px white;
+    box-shadow: 5px 5px 15px 5px white;
+    border-radius: 50%;
+}
+
+.footerIconTwo:hover {
+    -webkit-box-shadow: 5px 5px 15px 5px white;
+    box-shadow: 5px 5px 15px 5px white;
+    border-radius: 50px;
+}
+
+/* fin barre nav et footer */

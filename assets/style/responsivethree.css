@@ -1,0 +1,158 @@
+@media (max-width: 850px) {
+
+    * {
+        background-attachment: fixed;
+    }
+
+    .belier {
+        height: 810px;
+        width: 360px;
+    }
+
+    .belier p {
+        font-size: 18px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .gemino {
+        height: 1040px;
+        width: 360px;
+    }
+
+    .gemino p {
+        font-size: 18px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .cancer {
+        height: 750px;
+        width: 360px;
+
+
+    }
+
+    .vierge {
+        height: 960px;
+        width: 360px;
+
+    }
+
+    .scorpion {
+        height: 900px;
+        width: 360px;
+
+
+    }
+
+    .sagittaire {
+        height: 900px;
+        width: 360px;
+
+    }
+
+    .capricorne {
+        height: 960px;
+        width: 360px;
+
+    }
+
+    .poisson {
+        height: 880px;
+        width: 360px;
+
+    }
+
+    .verseau {
+        height: 840px;
+        width: 360px;
+    }
+
+    .verseau p {
+        font-size: 18px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .lion {
+        height: 840px;
+        width: 360px;
+    }
+
+    .lion p {
+        font-size: 18px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .cancer p {
+        font-size: 18px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .vierge p {
+        font-size: 18px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .scorpion p {
+        font-size: 18px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .sagittaire p {
+        font-size: 18px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .capricorne p {
+        font-size: 18px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .poisson p {
+        font-size: 18px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    main img {
+        display: none;
+    }
+
+    main {
+        margin-bottom: 0;
+    }
+
+    footer {
+        position: sticky;
+        bottom: 0;
+        padding-bottom: 0;
+    }
+
+    footer ul {
+        padding: 0;
+        justify-content: space-evenly;
+
+    }
+
+    .wrappedContainer p {
+        display: none;
+
+    }
+
+    .wrappedContainer {
+        margin: 0;
+        padding: 0;
+    }
+
+    .footerIcon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footerIconTwo {
+        width: 40px;
+        height: 40px;
+    }
+
+
+
+
+}
